@@ -15,7 +15,7 @@ body{
     height:auto;
     text-align: center;
     border-radius:10px;
-    
+    display:none;
 }
 h3{
     background-color:rgba(0, 0, 0, 0.5);
@@ -35,3 +35,10 @@ h2.weather{
 .iccon{
     text-align: center;
 }
+.click{
+    text-align: center;
+}
+#button{
+    margin-top:10%;
+}
+

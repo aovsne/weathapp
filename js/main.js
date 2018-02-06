@@ -1,4 +1,4 @@
-(function(){
+function getResult(){
 //    with geolocation method, lets find our current position
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(success,error)
@@ -53,4 +53,11 @@
     function error(){
         alert('We cant find you, sorry!')
     }
-}())
+
+    $('.main').css('display','block')
+    $('#button').css('display','none')
+    
+}
+
+
+document.getElementById('button').addEventListener('click',getResult,false)
